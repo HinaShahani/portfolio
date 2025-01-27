@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.container{
+    background: url(img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+.navbar ul li a{
+font-size: 20px;
+font-weight: 500;
+transition: .5s;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a {
+    color: rgb(73, 162, 210);
+}
+.Home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #ffff;
+}
+.home-info h1{
+    font-size: 55px;
+}
+.home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+}
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.home-info.home-sec{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:rgb(73, 162, 210);
+    border: 2px solid rgb(73, 162, 210);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(73, 162, 210);
+    font-size: 16px;
+    color: white;
+    font-weight: 600; 
+    transition: .5s;
+}
+.btn:hover{
+    background-color: transparent;
+    color:rgb(73, 162, 210);
+    box-shadow: none;
+}
+.sec{
+    margin-left: 20px;
+}
+.home-info.home-sec.sec{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid rgb(92, 103, 222);
+}
+
+
